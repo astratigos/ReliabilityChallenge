@@ -1,6 +1,5 @@
 using ReliabilityChallenge.Services;
 using System.Reflection;
-using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +9,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ConsoleAppContext>();
 builder.Services.AddTransient<RequestProcessingService>();
-builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
 using (var client = new ConsoleAppContext())
 {

@@ -23,7 +23,7 @@ namespace ReliabilityChallenge.Services
                     break;
             }
 
-            return new Response() { Id = randomNumber, RequestId = request.Id };
+            return new Response() { Id = 0, RequestId = request.Id };
         }
     }
 }
