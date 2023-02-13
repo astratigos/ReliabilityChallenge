@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliabilityChallenge.API", "ReliabilityChallenge.API\ReliabilityChallenge.API.csproj", "{A9F31724-F78E-4990-ACD3-6F74193E371E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliabilityChallenge.Tests", "ReliabilityChallenge.Tests\ReliabilityChallenge.Tests.csproj", "{8ED294D8-6D30-47E1-A188-2B6A660DDADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F31724-F78E-4990-ACD3-6F74193E371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F31724-F78E-4990-ACD3-6F74193E371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F31724-F78E-4990-ACD3-6F74193E371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F31724-F78E-4990-ACD3-6F74193E371E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED294D8-6D30-47E1-A188-2B6A660DDADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED294D8-6D30-47E1-A188-2B6A660DDADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED294D8-6D30-47E1-A188-2B6A660DDADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED294D8-6D30-47E1-A188-2B6A660DDADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4311BD3E-913C-4C6F-9EA0-D2C348774C0C}
+	EndGlobalSection
+EndGlobal
